@@ -1,11 +1,13 @@
 # DDD-CQRS-SampleProject
 
+
 This is a open-source project written in .NET Core 6.0
 
 This sample project demonistrate most common used technologies to develop large scale and distrebusted software systems.
  
 it implements the below model to simulate CRUD Actions:
 
+```
 Customer {
 	Firstname
 	Lastname
@@ -14,7 +16,7 @@ Customer {
 	Email
 	BankAccountNumber
 }
-
+```
 
 
 ## Technologies and Architecture:
