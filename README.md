@@ -3,9 +3,9 @@
 
 This is a open-source project written in .NET Core 6.0
 
-This sample project demonistrate most common used technologies to develop large scale and distrebusted software systems.
+This sample project demonistrate the most common technologies used to develop large scale and distrebusted software systems (Microservices).
  
-it implements the below model to simulate CRUD Actions:
+The sample project implements the below model to simulate CRUD Actions:
 
 ```
 Customer {
@@ -18,8 +18,7 @@ Customer {
 }
 ```
 
-
-## Technologies and Architecture:
+## Technologies and Architecture used:
 
 - .Net Core 6.0
 - ASP.NET 6.0
@@ -37,11 +36,10 @@ Customer {
 - Clean architecture
 - Responsibility separation concerns
 - SOLID Principles and Clean Code
-- DDD-Domain Driven Design
-- DE-Domain Events
-- DN-Domain Notification
+- DDD(Domain Driven Design)
+- DE(Domain Events)
+- DN(Domain Notification)
 - Domain Validations
 - CQRS (Imediate Consistency)
-- Event Sourcing
-- Unit of Work
-- Repository
+- Event Sourcing and OutBoxing Pattern
+- Unit of Work and Repository Patterns
