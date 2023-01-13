@@ -19,7 +19,7 @@ This sample project demonistrate most common used technologies to develop large 
 - MediatR
 - Swagger UI with JWT support
 - Unit Test
-========================================
+- ========================================
 - Clean architecture
 - Responsibility separation concerns
 - SOLID Principles and Clean Code
