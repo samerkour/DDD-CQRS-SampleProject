@@ -2,7 +2,19 @@
 
 This is a open-source project written in .NET Core 6.0
 
-This sample project demonistrate most common used technologies to develop large scale  and distrebusted software systems.
+This sample project demonistrate most common used technologies to develop large scale and distrebusted software systems.
+ 
+it implements the below model to simulate CRUD Actions:
+
+Customer {
+	Firstname
+	Lastname
+	DateOfBirth
+	PhoneNumber
+	Email
+	BankAccountNumber
+}
+
 
 
 ## Technologies and Architecture:
@@ -19,7 +31,7 @@ This sample project demonistrate most common used technologies to develop large 
 - MediatR
 - Swagger UI with JWT support
 - Unit Test
-# ========================================
+# 
 - Clean architecture
 - Responsibility separation concerns
 - SOLID Principles and Clean Code
@@ -31,4 +43,3 @@ This sample project demonistrate most common used technologies to develop large 
 - Event Sourcing
 - Unit of Work
 - Repository
-
