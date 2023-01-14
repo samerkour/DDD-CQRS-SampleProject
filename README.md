@@ -40,6 +40,6 @@ Customer {
 - DE(Domain Events)
 - DN(Domain Notification)
 - Domain Validations
-- CQRS (Imediate Consistency)
+- CQRS (Imediate Consistency) 
 - Event Sourcing and OutBoxing Pattern
 - Unit of Work and Repository Patterns
