@@ -11,7 +11,7 @@ The sample project implements the below model to simulate CRUD Actions:
 Customer {
 	Firstname
 	Lastname
-	DateOfBirth
+	BirthDate
 	PhoneNumber
 	Email
 	BankAccountNumber
