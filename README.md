@@ -32,6 +32,8 @@ Customer {
 - MediatR
 - Swagger UI with JWT support
 - Unit Test
+- BDD
+- TDD
 # 
 - Clean architecture
 - Responsibility separation concerns
