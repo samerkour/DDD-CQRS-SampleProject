@@ -11,12 +11,12 @@ using Xunit;
 
 namespace STech.Tests.UnitTest
 {
-    public class ValidationTest 
+    public class CustomerControllerTests
     {
         private readonly Mock<ICustomerAppService> _mockRepo;
         private readonly CustomerController _controller;
 
-        public ValidationTest()
+        public CustomerControllerTests()
         {
             _mockRepo = new Mock<ICustomerAppService>();
             _controller = new CustomerController(_mockRepo.Object);

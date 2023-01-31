@@ -39,6 +39,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EE52A667
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STech.Tests.UnitTest", "src\STech.Tests.UnitTest\STech.Tests.UnitTest.csproj", "{7D01BAF4-6EE9-4DD3-88AD-EA0BD8A4ABCD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceptanceTests", "AcceptanceTests\AcceptanceTests.csproj", "{115BF90C-D0F8-4DE1-84C1-E1291CB8E71D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,10 @@ Global
 		{7D01BAF4-6EE9-4DD3-88AD-EA0BD8A4ABCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D01BAF4-6EE9-4DD3-88AD-EA0BD8A4ABCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D01BAF4-6EE9-4DD3-88AD-EA0BD8A4ABCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{115BF90C-D0F8-4DE1-84C1-E1291CB8E71D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{115BF90C-D0F8-4DE1-84C1-E1291CB8E71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{115BF90C-D0F8-4DE1-84C1-E1291CB8E71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{115BF90C-D0F8-4DE1-84C1-E1291CB8E71D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +108,7 @@ Global
 		{442EBE64-52CB-4189-BAA9-E7660ACBDE96} = {FD1B5301-2A07-47B3-8773-839429800B2F}
 		{5255C696-0F02-4385-92C7-9FC403DA6B7C} = {BA4C44CC-65BC-4CE0-9B44-68BA231FAC73}
 		{7D01BAF4-6EE9-4DD3-88AD-EA0BD8A4ABCD} = {EE52A667-F9CA-498B-ADDE-A8817CE43CA5}
+		{115BF90C-D0F8-4DE1-84C1-E1291CB8E71D} = {EE52A667-F9CA-498B-ADDE-A8817CE43CA5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4050E145-6791-440A-A2E5-75B05ACD4AFE}

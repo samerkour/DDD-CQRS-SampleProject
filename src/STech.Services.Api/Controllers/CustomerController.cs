@@ -29,9 +29,13 @@ namespace STech.Services.Api.Controllers
 
         [AllowAnonymous]
         [HttpGet("customer-management/{id:guid}")]
-        public async Task<CustomerViewModel> Get(Guid id)
+        public async Task<IActionResult> Get(Guid id)
         {
-            return await _customerAppService.GetById(id);
+            var customer = await _customerAppService.GetById(id);
+            if (customer == null)
+                return NotFound();
+
+            return Ok(customer);
         }
 
         [CustomAuthorize("Customers", "Write")]
